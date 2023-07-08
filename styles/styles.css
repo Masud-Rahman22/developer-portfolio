@@ -158,3 +158,8 @@ header {
 .skills-description{
     color: #757575;
 }
+.footer-section{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
