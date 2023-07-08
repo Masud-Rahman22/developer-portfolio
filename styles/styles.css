@@ -3,12 +3,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* nav-starts here */
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #FFF8F3;
+    padding: 0 200px;
 }
+
 nav span {
     color: #FD6E0A;
 }
@@ -48,3 +50,46 @@ nav a {
     line-height: normal;
     border-radius: 5px;
 }
+
+/* nav ends here  */
+/* banner starts here */
+header {
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.hardy-img {
+    width: 584px;
+    height: 676px;
+}
+
+.greetings {
+    color: var(--dark-02, #474747);
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+.name {
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: var(--dark-03, #757575);
+}
+/* banner ends here */
